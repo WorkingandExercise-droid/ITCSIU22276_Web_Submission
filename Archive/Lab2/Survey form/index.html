@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #logo{
+            width: 12%;
+            height: auto;
+        }
+        #yolo{
+            color: rgb(9, 117, 163);
+        }
+    </style>
+</head>
+<body style="padding-left: 30px;">
+    <div style="padding: 10px;width: 50%;border: solid 2px rgb(26, 17, 156);">
+    <head>
+        <img id="logo" src="../../Statics/download.png">
+    </head>
+    <div>
+        <p><h1 id = "yolo">Survey</h1></p>
+        <p>If you have a moment, wed appreciate it if you would fill out this<br>
+            survey.
+        </p>
+    </div>
+    <div>
+        <p><h1 id = "yolo">Your Information</h1></p>
+        <form>
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <label style="width: 120px;" for="tf_1">First Name</label>
+                <input type="text" id="tf_1" name="tf_1">
+            </div>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <label style="width: 120px;" for="tf_2">Last Name</label>
+                <input type="text" id="tf_2" name="tf_2">
+            </div>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <label style="width: 120px;" for="tf_3">Email</label>
+                <input type="text" id="tf_3" name="tf_3">
+            </div>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <label style="width: 120px;" for="tf_4">Phone</label>
+                <input type="text" id="tf_4" name="tf_4">
+            </div>
+        </form>
+    </div>
+    <div>
+        <p><h1 id="yolo">How did you hear about us?</h1></p>
+        <form style="display: flex;">
+            <div style="display: flex; align-items: center; margin-right: 10px;">
+                <input type="radio" id = "r_opt1" name = "opt1" value="Search engine">
+                <label for = "r_opt1">Search engine</label>
+            </div>
+            <div style="display: flex; align-items: center; margin-right: 10px;">
+                <input type="radio" id = "r_opt2" name = "opt1" value="Words of mouth">
+                <label for = "r_opt2">Words of mouth</label>
+            </div>
+            <div style="display: flex; align-items: center; margin-right: 10px;">
+                <input type="radio" id = "r_opt3" name = "opt1" value="Social media">
+                <label for = "r_opt3">Social media</label>
+            </div>
+            <div style="display: flex; align-items: center; margin-right: 10px;">
+                <input type="radio" id = "r_opt4" name = "opt1" value="Others">
+                <label for = "r_opt4">Others</label>
+            </div>
+        </form>
+    </div>
+    <div>
+        <p><h1 id="yolo">Would you like to be updated about our<br> 
+            upcoming CDs and special offers?</h1></p>
+        <form>
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <input type="checkbox" id = "c1" name = "c1" value="ON">
+                <label for = "c1">Yes, send me the email.</label>
+            </div>
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <input type="checkbox" id = "c2" name = "c2" value="ON">
+                <label for = "c2">No, maybe next time.</label>
+            </div>
+        </form>
+        <form>
+            <label for = "contact">Please contact me by:</label>
+            <select id="contact" name="contact" style="padding:5px;">
+                <option value="Email or postal mail">Email or postal mail</option>
+                <option value="Email only">Email only</option>
+                <option value="Postal mail only">Postal mail only</option>
+            </select>
+        </form>
+        <br>
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
